@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#38111e"><title>Wedding invitation</title><link rel="stylesheet" href="style.css"><script defer src="wedding-data.js"></script><script defer src="app.js"></script></head>
+<body>
+<noscript>Please enable JavaScript to open the invitation. कृपया निमंत्रण देखने के लिए जावास्क्रिप्ट चालू करें।</noscript>
+<header class="cover" id="cover"><div class="panel"><img class="seal" src="assets/floral-seal.png" alt=""><p class="blessing" id="blessing"></p><p class="label">Wedding invitation · विवाह निमंत्रण</p><h1 id="names"></h1><p id="coverDate"></p><div class="divider" aria-hidden="true">✧</div><p class="choose">Open your invitation <span lang="hi">/ निमंत्रण खोलें</span></p><div class="buttons"><button data-lang="0">English</button><button lang="hi" data-lang="1">हिन्दी</button></div></div></header>
+<main hidden id="inside"><nav><a id="monogram" href="#intro"></a><div><a id="navEvents" href="#events"></a><a id="navVenues" href="#venues"></a><button id="language"></button></div></nav>
+<section class="intro" id="intro"><div class="medallion"><img src="assets/floral-seal.png" alt=""><i id="initials"></i></div><p class="label" id="inviteLabel"></p><h1 tabindex="-1" id="title"></h1><p class="date" id="date"></p><p id="city"></p><p class="count" id="count"></p></section>
+<section class="paper letter"><img hidden id="photo" alt=""><div><p class="label" id="letterLabel"></p><h2 id="familyTitle"></h2><p id="message"></p><p class="signature" id="family"></p></div></section>
+<section class="paper schedule" id="events"><h2 id="eventsTitle"></h2><div id="rows"></div></section>
+<section class="dark" id="venues"><h2 id="venuesTitle"></h2><div id="places"></div></section>
+<footer><p class="signature" id="closing"></p><div class="buttons"><a id="calendar" target="_blank" rel="noopener"></a><a id="rsvp" hidden target="_blank" rel="noopener"></a><a id="share" hidden target="_blank" rel="noopener"></a></div></footer></main></body></html>
